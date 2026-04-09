@@ -1,31 +1,29 @@
 {
   "layer": "top",
+  "position": "top",
+  "height": 30,
   "modules-left": [
+    "network",
+    "pulseaudio"
+  ],
+  "modules-center": [
     "sway/workspaces",
     "sway/mode"
   ],
-  "modules-center": [
-    "sway/window"
-  ],
   "modules-right": [
-    "battery",
+    "keyboard-state",
     "clock"
   ],
-  "sway/window": {
-    "max-length": 50
-  },
+  // right side
   "clock": {
-    "interval": 60,
-    "format": "{:%H:%M}"
+    "format": "☁️  {:%Y年 %m月 %d日  ||  %H時 %M分}"
   },
-  "battery": {
-    "format": "{capacity}% {icon}",
-    "format-icons": [
-      "",
-      "",
-      "",
-      "",
-      ""
-    ]
+  "keyboard-state": {
+    "format": "{layout}",
+    "format-icons": {
+      "us": "A",
+      "jp": "あ"
+    }
   }
+  // middle side
 }
