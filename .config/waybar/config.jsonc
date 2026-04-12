@@ -7,23 +7,37 @@
     "pulseaudio"
   ],
   "modules-center": [
-    "sway/workspaces",
-    "sway/mode"
+    "hyprland/workspaces"
   ],
   "modules-right": [
-    "keyboard-state",
+    "sway/language",
     "clock"
   ],
   // right side
   "clock": {
     "format": "☁️  {:%Y年 %m月 %d日  ||  %H時 %M分}"
   },
-  "keyboard-state": {
+  "sway/language": {
     "format": "{layout}",
     "format-icons": {
       "us": "A",
       "jp": "あ"
     }
-  }
+  },
   // middle side
+  "hyprland/workspaces": {
+    "format": "{name}",
+    "format-icons": {
+      "1": "1",
+      "2": "2",
+      "3": "3",
+      "4": "4",
+      "5": "5",
+      "6": "6",
+      "7": "7",
+      "8": "8",
+      "9": "9"
+    }
+  },
+  // left side
 }
