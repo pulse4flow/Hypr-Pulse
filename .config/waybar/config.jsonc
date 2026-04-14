@@ -13,14 +13,16 @@
     "sway/language",
     "clock"
   ],
-  // right side
+
+  // right side//
   "clock": {
     "format": "☁️  {:%Y年 %m月 %d日  ||  %H時 %M分}"
   },
   "sway/language": {
     "format": "{short}"
   },
-  // middle side
+  // middle side//
+
   "hyprland/workspaces": {
     "format": "{name}",
     "format-icons": {
@@ -38,7 +40,8 @@
       "*": 4
     }
   },
-  // left side
+
+  // left side//
   "network": {
     "interface": "wlp2s0",
     "format": "{ifname}",
